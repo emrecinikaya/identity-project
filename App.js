@@ -7,6 +7,7 @@ import axios from 'axios'
 const App = () => {
   const [image, setImage] = useState("")
   const [showImage, setShowImage] = useState('')
+  const [confidence, setConfidence] = useState()
   const openGallery = () => {
     ImagePicker.openPicker({
       includeBase64: true,
@@ -33,17 +34,27 @@ const App = () => {
   })
   .then(function(response) {
       console.log(response.data.predictions);
+      if(response.data.predictions[0].confidence === undefined || response.data.predictions[0].confidence < 0.70){
+        setConfidence(0);
+      }
+      else{
+        setConfidence(response.data.predictions[0].confidence);
+      }
+     
+     console.log(confidence);
   })
   }
-  /*useEffect(() => {
-    openGallery()
-  }, [])*/
+  
+  
   
   return (
     <View style={styles.container}>
       <View style={styles.imageStyle}>
         <Image style={styles.image} source={{uri: showImage}}/>
       </View>
+      <View>{confidence >= 0.70 ? 
+        <Text>Kimlik Gecerli</Text> : <Text>Gecersiz Istek</Text>
+      }</View>
       <View style={styles.buttonContainer}>
       <TouchableOpacity style={styles.buttons} onPress={() => openGallery()}>
         <Text>Kamerayi Ac</Text>
