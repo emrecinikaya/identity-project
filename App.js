@@ -1,24 +1,25 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable semi */
-import { View, Text ,TouchableOpacity} from 'react-native'
-import React, {useState} from 'react'
-import ImagePicker from 'react-native-image-crop-picker';
+import { View, Text ,TouchableOpacity, Image, StyleSheet} from 'react-native'
+import React, {useEffect, useState} from 'react'
+import ImagePicker, { openCamera } from 'react-native-image-crop-picker';
 import axios from 'axios'
-import ImgToBase64 from "react-native-image-base64"
 const App = () => {
   const [image, setImage] = useState("")
-  const api = () => {
-    ImagePicker.openCamera({
+  const [showImage, setShowImage] = useState('')
+  const openGallery = () => {
+    ImagePicker.openPicker({
       includeBase64: true,
       compressImageQuality: 0.5
     }).then(res => {
       //console.log(res);
       setImage(res.data)
-      
+      setShowImage(res.path)
+      console.log(showImage);
       
     });
   }
-  const api2 = () =>{
+  const sendImage = () =>{
     axios({
       method: "POST",
       url: "https://detect.roboflow.com/kimlik1/3",
@@ -33,30 +34,77 @@ const App = () => {
   .then(function(response) {
       console.log(response.data.predictions);
   })
-  .catch(function(error) {
-      console.log(error.message);
-  });
   }
-
-const api3 = () => {
-
-  ImgToBase64.getBase64String(image)
-  .then(base64String =>{
-    console.log(image);
-  })
-}
+  /*useEffect(() => {
+    openGallery()
+  }, [])*/
   
   return (
-    <View>
-      <TouchableOpacity onPress={() => api()}>
-        <Text>Open Gallery</Text>
+    <View style={styles.container}>
+      <View style={styles.imageStyle}>
+        <Image style={styles.image} source={{uri: showImage}}/>
+      </View>
+      <View style={styles.buttonContainer}>
+      <TouchableOpacity style={styles.buttons} onPress={() => openGallery()}>
+        <Text>Kamerayi Ac</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => api2()}>
-        <Text>Open Gallery2222222</Text>
+      <TouchableOpacity style={styles.buttons} onPress={() => sendImage()}>
+        <Text>Kimligi Tani</Text>
       </TouchableOpacity>
-      
+      </View>
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#e6e6e6"
+  },
+  imageStyle:{
+    flex: 4,
+    margin: 20,
+    borderWidth: 8,
+    borderColor: "#dac2c2",
+    borderRadius: 3,
+    shadowColor: "#dac2c2",
+shadowOffset: {
+	width: 0,
+	height: 6,
+},
+shadowOpacity: 0.39,
+shadowRadius: 8.30,
+
+elevation: 13,
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+  },
+  buttonContainer: {
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+  },
+  buttons:{
+    
+    flexDirection: 'column',
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#ffffff",
+    width: "30%",
+    height: '40%', 
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOffset: {
+	    width: 0,
+	    height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+  }
+})
 
 export default App
