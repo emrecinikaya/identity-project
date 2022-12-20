@@ -4,14 +4,31 @@ import { View, Text ,TouchableOpacity, Image, StyleSheet} from 'react-native'
 import React, {useEffect, useState} from 'react'
 import ImagePicker, { openCamera } from 'react-native-image-crop-picker';
 import axios from 'axios'
+import RNTextDetector from "rn-text-detector";
 const App = () => {
   const [image, setImage] = useState("")
   const [showImage, setShowImage] = useState('')
   const [confidence, setConfidence] = useState()
+  
+  const detectText = async () => {
+    try {
+      const options = {
+        quality: 1,
+        base64: true,
+        skipProcessing: true,
+      };
+      const visionResp = await RNTextDetector.detectFromUri(showImage);
+      console.log('visionResp', visionResp);
+    } catch (e) {
+      console.warn(e);
+    }
+  };
+
   const openGallery = () => {
-    ImagePicker.openPicker({
+    ImagePicker.openCamera({
       includeBase64: true,
-      compressImageQuality: 0.5
+      compressImageQuality: 0.7, 
+      cropping: true
     }).then(res => {
       //console.log(res);
       setImage(res.data)
@@ -36,12 +53,15 @@ const App = () => {
       console.log(response.data.predictions);
       if(response.data.predictions[0].confidence === undefined || response.data.predictions[0].confidence < 0.70){
         setConfidence(0);
+        
+       
       }
       else{
         setConfidence(response.data.predictions[0].confidence);
+        detectText()
       }
      
-     console.log(confidence);
+    
   })
   }
   
@@ -52,15 +72,15 @@ const App = () => {
       <View style={styles.imageStyle}>
         <Image style={styles.image} source={{uri: showImage}}/>
       </View>
-      <View>{confidence >= 0.70 ? 
-        <Text>Kimlik Gecerli</Text> : <Text>Gecersiz Istek</Text>
+      <View style={styles.checkText}>{confidence >= 0.75 ? 
+        <Text style={styles.greenText}>Kimlik Gecerli</Text> : <Text style={styles.redText}>Gecersiz Istek</Text>
       }</View>
       <View style={styles.buttonContainer}>
       <TouchableOpacity style={styles.buttons} onPress={() => openGallery()}>
-        <Text>Kamerayi Ac</Text>
+        <Text style={styles.textStyle}>Kamerayi Ac</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.buttons} onPress={() => sendImage()}>
-        <Text>Kimligi Tani</Text>
+        <Text style={styles.textStyle}>Kimligi Tani</Text>
       </TouchableOpacity>
       </View>
     </View>
@@ -115,6 +135,27 @@ elevation: 13,
     shadowOpacity: 0.22,
     shadowRadius: 2.22,
     elevation: 3,
+  },
+  textStyle:{
+    color: "black"
+  },
+  checkText:{
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  greenText:{
+    justifyContent: "center",
+    alignItems: "center",
+    color: "green",
+    fontWeight: "bold",
+    fontSize: 25
+  },
+  redText:{
+    justifyContent: "center",
+    alignItems: "center",
+    color: "red",
+    fontWeight: "bold",
+    fontSize: 25
   }
 })
 
