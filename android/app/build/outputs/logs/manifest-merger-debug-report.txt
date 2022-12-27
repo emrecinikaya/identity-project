@@ -1,0 +1,470 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/546d47885aee347dbc4d0149ed736cc8/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/6d9a568c7770daee15f85f8aed8ce055/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-image-base64] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-base64/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-33:12
+MERGED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.68.2] /Users/emrecinikaya/.gradle/caches/transforms-3/babc3f1e75d85b6176fc4eefbd241d82/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/176d8c0739b337258be0da759765a4bf/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/emrecinikaya/.gradle/caches/transforms-3/f85c4fff6123c19bb01348ede2cce5d1/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/29624e118b0ef9f6f96815c2d25b463e/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bd4731c2f1ee9f1ccc0cf58e344e2150/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/03966ea6bb72a309dc78047092d81d05/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fdf2630773f83310af93ff914086ec04/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/5c4bfb1f142e1e9fdc3af82429b2dbcc/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/954ef70b6d745460272d1749ad2ee91f/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/984c23692b1baa3d04264a38c8152f4f/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/21991fc526d56b1b0097c14ca05ba394/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/d64a45d64a996bd4e2d537c1f1586453/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/47a706d13c1c062dcdd5874005c3619e/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/emrecinikaya/.gradle/caches/transforms-3/ce6180218c9ed37960f8bc707f2583f5/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/33a902d8dcaf7eb485fa23722e53fba1/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/26e35f290bad10935a4d14472a6d6a4e/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/03d6fed518a9a0bb78d6946e327c1ad3/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c917c12db80695f408d5fb3fc2afdd39/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/emrecinikaya/.gradle/caches/transforms-3/11c8b2c00e9babc703c3d7b773030ed4/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/emrecinikaya/.gradle/caches/transforms-3/922cdd3fb4c825c6bd647b4816fca3e9/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/20e224436e61964946103d8db0e3eb60/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/799b5d443f51f596ab8b44d8d6ef177f/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/0e04eff24b1fb933f74113247250f5e5/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/9ddddb70a11687f5525b8c81fab88353/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/emrecinikaya/.gradle/caches/transforms-3/a22e71c9cc043ce8b692e97e23593509/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/82d3d18cf14941c6e6f01f2abe5b2384/transformed/jetified-play-services-vision-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/7b70615b4df613cc1e590cb0adb1983d/transformed/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3659e4dedd0431265d5f020bc0772228/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/ab7047599f7551020da83178ab4cea6e/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3cb1062dae50a85e5242f46d1796337a/transformed/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/f3273032c123f98e929ed1e5c8bd05c4/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/emrecinikaya/.gradle/caches/transforms-3/0496a5b8f19db88c293db5d5b6004ce1/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/emrecinikaya/.gradle/caches/transforms-3/1e9d3279a2ec4ac14e07702b408f6b77/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/emrecinikaya/.gradle/caches/transforms-3/801178cd2b0d578df43aed48acc0bb52/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c419dd3a9b961642d34c67be56145f15/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/emrecinikaya/.gradle/caches/transforms-3/895c8d55dc0b2e1b7d3e15fb68892bff/transformed/transition-1.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/84059c05b9dffac52f46c10aeb506e37/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c0ae5c5a9caef5834bc2d5471b9cd9a8/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/81e8746e15ff5c4d559e9d8b34525a84/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/98c232d42e84a8f83c454299c6b78b77/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/766626572d01f83f1b63faf3193f6701/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/07582b6639abbf908f0f07655bc1febf/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/9cf0498db5ea83d3b7585b360a9f1767/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/cfc5f420299e9341ec596bc12d8e7351/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bd73c8a98c072920a03d6db3726bdd47/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/6ed305f2b7840053778afbb12f0882cf/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/7c56dcebcc099464a620a6437934faaf/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/476d8109f94c4637cc610c53115fc5c3/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/7d31bcc3b75cd6494c3d8e7ae5ecd190/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/2a7088964deef27397af3d0fe7439b18/transformed/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/f9ebaa2fbf438f2f02117e72fa55f549/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/78e4e814295136e5d59ccf189119916b/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/337d04687b133a579cb196d4c374f82f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/77bb1b03603c44a13b8449149647c3f5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/d88e1a4971382078bfca9a0de6b81d99/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/e6050936246a4ea7d04fb503c0adb561/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/e4755acaa943b6a3c3d34911ec858263/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:2:3-23
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:2:3-23
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.68.2] /Users/emrecinikaya/.gradle/caches/transforms-3/babc3f1e75d85b6176fc4eefbd241d82/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.68.2] /Users/emrecinikaya/.gradle/caches/transforms-3/babc3f1e75d85b6176fc4eefbd241d82/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/emrecinikaya/.gradle/caches/transforms-3/ce6180218c9ed37960f8bc707f2583f5/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/emrecinikaya/.gradle/caches/transforms-3/ce6180218c9ed37960f8bc707f2583f5/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/82d3d18cf14941c6e6f01f2abe5b2384/transformed/jetified-play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/82d3d18cf14941c6e6f01f2abe5b2384/transformed/jetified-play-services-vision-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/7b70615b4df613cc1e590cb0adb1983d/transformed/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/7b70615b4df613cc1e590cb0adb1983d/transformed/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3659e4dedd0431265d5f020bc0772228/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3659e4dedd0431265d5f020bc0772228/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/ab7047599f7551020da83178ab4cea6e/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/ab7047599f7551020da83178ab4cea6e/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/f3273032c123f98e929ed1e5c8bd05c4/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/f3273032c123f98e929ed1e5c8bd05c4/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/07582b6639abbf908f0f07655bc1febf/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/07582b6639abbf908f0f07655bc1febf/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/f9ebaa2fbf438f2f02117e72fa55f549/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/f9ebaa2fbf438f2f02117e72fa55f549/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:10:5-48
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/07582b6639abbf908f0f07655bc1febf/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:14:9-48
+	android:roundIcon
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:13:9-29
+	android:icon
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.kimlik.MainActivity
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:13:7-24:18
+	android:label
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:exported
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:19:9-32
+	android:configChanges
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:16:9-118
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:22:23-70
+uses-sdk
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/546d47885aee347dbc4d0149ed736cc8/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/546d47885aee347dbc4d0149ed736cc8/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/6d9a568c7770daee15f85f8aed8ce055/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/6d9a568c7770daee15f85f8aed8ce055/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-image-base64] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-base64/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-base64] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-base64/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.2] /Users/emrecinikaya/.gradle/caches/transforms-3/babc3f1e75d85b6176fc4eefbd241d82/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.2] /Users/emrecinikaya/.gradle/caches/transforms-3/babc3f1e75d85b6176fc4eefbd241d82/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/176d8c0739b337258be0da759765a4bf/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/176d8c0739b337258be0da759765a4bf/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/emrecinikaya/.gradle/caches/transforms-3/f85c4fff6123c19bb01348ede2cce5d1/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/emrecinikaya/.gradle/caches/transforms-3/f85c4fff6123c19bb01348ede2cce5d1/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/29624e118b0ef9f6f96815c2d25b463e/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/29624e118b0ef9f6f96815c2d25b463e/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bd4731c2f1ee9f1ccc0cf58e344e2150/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bd4731c2f1ee9f1ccc0cf58e344e2150/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/03966ea6bb72a309dc78047092d81d05/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/03966ea6bb72a309dc78047092d81d05/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fdf2630773f83310af93ff914086ec04/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fdf2630773f83310af93ff914086ec04/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/5c4bfb1f142e1e9fdc3af82429b2dbcc/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/5c4bfb1f142e1e9fdc3af82429b2dbcc/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/954ef70b6d745460272d1749ad2ee91f/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/954ef70b6d745460272d1749ad2ee91f/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/984c23692b1baa3d04264a38c8152f4f/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/984c23692b1baa3d04264a38c8152f4f/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/21991fc526d56b1b0097c14ca05ba394/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/21991fc526d56b1b0097c14ca05ba394/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/d64a45d64a996bd4e2d537c1f1586453/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/d64a45d64a996bd4e2d537c1f1586453/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/47a706d13c1c062dcdd5874005c3619e/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/47a706d13c1c062dcdd5874005c3619e/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/emrecinikaya/.gradle/caches/transforms-3/ce6180218c9ed37960f8bc707f2583f5/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/emrecinikaya/.gradle/caches/transforms-3/ce6180218c9ed37960f8bc707f2583f5/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/33a902d8dcaf7eb485fa23722e53fba1/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/33a902d8dcaf7eb485fa23722e53fba1/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/26e35f290bad10935a4d14472a6d6a4e/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/26e35f290bad10935a4d14472a6d6a4e/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/03d6fed518a9a0bb78d6946e327c1ad3/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/03d6fed518a9a0bb78d6946e327c1ad3/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c917c12db80695f408d5fb3fc2afdd39/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c917c12db80695f408d5fb3fc2afdd39/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/emrecinikaya/.gradle/caches/transforms-3/11c8b2c00e9babc703c3d7b773030ed4/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/emrecinikaya/.gradle/caches/transforms-3/11c8b2c00e9babc703c3d7b773030ed4/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/emrecinikaya/.gradle/caches/transforms-3/922cdd3fb4c825c6bd647b4816fca3e9/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/emrecinikaya/.gradle/caches/transforms-3/922cdd3fb4c825c6bd647b4816fca3e9/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/20e224436e61964946103d8db0e3eb60/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/20e224436e61964946103d8db0e3eb60/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/799b5d443f51f596ab8b44d8d6ef177f/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/799b5d443f51f596ab8b44d8d6ef177f/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/0e04eff24b1fb933f74113247250f5e5/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/0e04eff24b1fb933f74113247250f5e5/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/9ddddb70a11687f5525b8c81fab88353/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/9ddddb70a11687f5525b8c81fab88353/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:6:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/emrecinikaya/.gradle/caches/transforms-3/a22e71c9cc043ce8b692e97e23593509/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/emrecinikaya/.gradle/caches/transforms-3/a22e71c9cc043ce8b692e97e23593509/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/82d3d18cf14941c6e6f01f2abe5b2384/transformed/jetified-play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/82d3d18cf14941c6e6f01f2abe5b2384/transformed/jetified-play-services-vision-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/7b70615b4df613cc1e590cb0adb1983d/transformed/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] /Users/emrecinikaya/.gradle/caches/transforms-3/7b70615b4df613cc1e590cb0adb1983d/transformed/jetified-play-services-vision-common-19.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3659e4dedd0431265d5f020bc0772228/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3659e4dedd0431265d5f020bc0772228/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/ab7047599f7551020da83178ab4cea6e/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/ab7047599f7551020da83178ab4cea6e/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3cb1062dae50a85e5242f46d1796337a/transformed/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/3cb1062dae50a85e5242f46d1796337a/transformed/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/f3273032c123f98e929ed1e5c8bd05c4/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/f3273032c123f98e929ed1e5c8bd05c4/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/emrecinikaya/.gradle/caches/transforms-3/0496a5b8f19db88c293db5d5b6004ce1/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/emrecinikaya/.gradle/caches/transforms-3/0496a5b8f19db88c293db5d5b6004ce1/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/emrecinikaya/.gradle/caches/transforms-3/1e9d3279a2ec4ac14e07702b408f6b77/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/emrecinikaya/.gradle/caches/transforms-3/1e9d3279a2ec4ac14e07702b408f6b77/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/emrecinikaya/.gradle/caches/transforms-3/801178cd2b0d578df43aed48acc0bb52/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/emrecinikaya/.gradle/caches/transforms-3/801178cd2b0d578df43aed48acc0bb52/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c419dd3a9b961642d34c67be56145f15/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c419dd3a9b961642d34c67be56145f15/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/emrecinikaya/.gradle/caches/transforms-3/895c8d55dc0b2e1b7d3e15fb68892bff/transformed/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/emrecinikaya/.gradle/caches/transforms-3/895c8d55dc0b2e1b7d3e15fb68892bff/transformed/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/84059c05b9dffac52f46c10aeb506e37/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/84059c05b9dffac52f46c10aeb506e37/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c0ae5c5a9caef5834bc2d5471b9cd9a8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/c0ae5c5a9caef5834bc2d5471b9cd9a8/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/81e8746e15ff5c4d559e9d8b34525a84/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/81e8746e15ff5c4d559e9d8b34525a84/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/98c232d42e84a8f83c454299c6b78b77/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/98c232d42e84a8f83c454299c6b78b77/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/766626572d01f83f1b63faf3193f6701/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/766626572d01f83f1b63faf3193f6701/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/07582b6639abbf908f0f07655bc1febf/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/07582b6639abbf908f0f07655bc1febf/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/9cf0498db5ea83d3b7585b360a9f1767/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/9cf0498db5ea83d3b7585b360a9f1767/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/cfc5f420299e9341ec596bc12d8e7351/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/cfc5f420299e9341ec596bc12d8e7351/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bd73c8a98c072920a03d6db3726bdd47/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bd73c8a98c072920a03d6db3726bdd47/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/6ed305f2b7840053778afbb12f0882cf/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/6ed305f2b7840053778afbb12f0882cf/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/7c56dcebcc099464a620a6437934faaf/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/7c56dcebcc099464a620a6437934faaf/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/476d8109f94c4637cc610c53115fc5c3/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/476d8109f94c4637cc610c53115fc5c3/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/7d31bcc3b75cd6494c3d8e7ae5ecd190/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/7d31bcc3b75cd6494c3d8e7ae5ecd190/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/2a7088964deef27397af3d0fe7439b18/transformed/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/2a7088964deef27397af3d0fe7439b18/transformed/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/f9ebaa2fbf438f2f02117e72fa55f549/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/f9ebaa2fbf438f2f02117e72fa55f549/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/78e4e814295136e5d59ccf189119916b/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/78e4e814295136e5d59ccf189119916b/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/337d04687b133a579cb196d4c374f82f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/337d04687b133a579cb196d4c374f82f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/77bb1b03603c44a13b8449149647c3f5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/emrecinikaya/.gradle/caches/transforms-3/77bb1b03603c44a13b8449149647c3f5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/d88e1a4971382078bfca9a0de6b81d99/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/d88e1a4971382078bfca9a0de6b81d99/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/e6050936246a4ea7d04fb503c0adb561/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/emrecinikaya/.gradle/caches/transforms-3/e6050936246a4ea7d04fb503c0adb561/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/e4755acaa943b6a3c3d34911ec858263/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/e4755acaa943b6a3c3d34911ec858263/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.CAMERA
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:6:5-64
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:7:5-80
+MERGED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+MERGED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:8:6-80
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:8:23-78
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:15:9-111
+	android:exported
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:15:84-108
+	android:name
+		ADDED from /Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:15:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+queries
+ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+provider#com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider
+ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+	android:exported
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+	android:resource
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+	android:theme
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+provider#com.imagepicker.ImagePickerProvider
+ADDED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from [:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:31
+	android:value
+		ADDED from [:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-28
+	android:name
+		ADDED from [:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-60
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

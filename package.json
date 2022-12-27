@@ -15,7 +15,8 @@
     "react-native": "0.68.2",
     "react-native-image-base64": "^0.1.4",
     "react-native-image-crop-picker": "^0.38.1",
-    "react-native-image-picker": "^4.10.2"
+    "react-native-image-picker": "^4.10.2",
+    "rn-text-detector": "^0.0.8"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

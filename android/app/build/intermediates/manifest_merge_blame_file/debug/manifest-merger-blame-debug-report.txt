@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kimlik"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:6:5-64
+12-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:7:5-80
+13-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:8:6-80
+14-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:8:23-78
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:4:5-67
+15-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.125.0] /Users/emrecinikaya/.gradle/caches/transforms-3/189c037cf5933b79ac535f4e7eef766c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+17
+18    <queries>
+18-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+19        <intent>
+19-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+20            <action android:name="android.media.action.IMAGE_CAPTURE" />
+20-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+20-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+21        </intent>
+22    </queries>
+23
+24    <meta-data
+24-->[:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:31
+25        android:name="com.google.mlkit.vision.DEPENDENCIES"
+25-->[:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-60
+26        android:value="ocr" />
+26-->[:rn-text-detector] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/rn-text-detector/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-28
+27
+28    <application
+28-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:6:5-25:19
+29        android:name="com.kimlik.MainApplication"
+29-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:7:7-38
+30        android:allowBackup="false"
+30-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:11:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.5.0] /Users/emrecinikaya/.gradle/caches/transforms-3/07582b6639abbf908f0f07655bc1febf/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:9:7-41
+34        android:label="@string/app_name"
+34-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:8:7-39
+35        android:requestLegacyExternalStorage="true"
+35-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:10:5-48
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:10:7-52
+37        android:theme="@style/AppTheme"
+37-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:12:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:12:9-44
+39        <activity
+39-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:15:9-111
+40            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+40-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:15:19-83
+41            android:exported="false" />
+41-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/debug/AndroidManifest.xml:15:84-108
+42        <activity
+42-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:13:7-24:18
+43            android:name="com.kimlik.MainActivity"
+43-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:14:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+44-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:16:9-118
+45            android:exported="true"
+45-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:19:9-32
+46            android:label="@string/app_name"
+46-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:15:9-41
+47            android:launchMode="singleTask"
+47-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:17:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:18:9-51
+49            <intent-filter>
+49-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:20:9-23:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:21:13-65
+50-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:21:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:22:13-73
+52-->/Users/emrecinikaya/Desktop/Projeler/identity-project/android/app/src/main/AndroidManifest.xml:22:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+57            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+57-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+58            android:authorities="com.kimlik.provider"
+58-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+59            android:exported="false"
+59-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+60            android:grantUriPermissions="true" >
+60-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+61            <meta-data
+61-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+63                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+63-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+64        </provider>
+65
+66        <activity
+66-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+67            android:name="com.yalantis.ucrop.UCropActivity"
+67-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+68            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+68-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+69
+70        <provider
+70-->[:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+71            android:name="com.imagepicker.ImagePickerProvider"
+71-->[:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+72            android:authorities="com.kimlik.imagepickerprovider"
+72-->[:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+73            android:exported="false"
+73-->[:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+74            android:grantUriPermissions="true" >
+74-->[:react-native-image-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+75            <meta-data
+75-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+77                android:resource="@xml/imagepicker_provider_paths" />
+77-->[:react-native-image-crop-picker] /Users/emrecinikaya/Desktop/Projeler/identity-project/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+78        </provider>
+79
+80        <service
+80-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:9:9-15:19
+81            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+81-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:10:13-91
+82            android:directBootAware="true"
+82-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:17:13-43
+83            android:exported="false" >
+83-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:11:13-37
+84            <meta-data
+84-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:12:13-14:85
+85                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+85-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:13:17-114
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] /Users/emrecinikaya/.gradle/caches/transforms-3/4e62423e7216846ec2caf3a197c7c8a8/transformed/jetified-play-services-mlkit-text-recognition-16.1.1/AndroidManifest.xml:14:17-82
+87            <meta-data
+87-->[com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:12:13-14:85
+88                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+88-->[com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:13:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.mlkit:vision-common:16.1.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a1aa15df74ff1d2833e55cc0b6bc7cb4/transformed/jetified-vision-common-16.1.0/AndroidManifest.xml:14:17-82
+90            <meta-data
+90-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:20:13-22:85
+91                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+91-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:21:17-120
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:22:17-82
+93        </service>
+94
+95        <provider
+95-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:9:9-13:38
+96            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+96-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:10:13-78
+97            android:authorities="com.kimlik.mlkitinitprovider"
+97-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:11:13-69
+98            android:exported="false"
+98-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:12:13-37
+99            android:initOrder="99" />
+99-->[com.google.mlkit:common:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/fbc0f22c839b75a33238197fa8417e02/transformed/jetified-common-17.0.0/AndroidManifest.xml:13:13-35
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/bf6fdd1f3f3b2da47de0c706c6eb9701/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:17.0.0] /Users/emrecinikaya/.gradle/caches/transforms-3/a3efb2cc1656bb19b0b57ddab9dd45e8/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+109    </application>
+110
+111</manifest>
