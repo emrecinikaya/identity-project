@@ -14,7 +14,6 @@ const App = () => {
   const [surname, setSurname] = useState();
   const [birthDate, setBirthDate] = useState();
 
-
   const detectText = async () => {
     try {
       const options = {
@@ -26,45 +25,46 @@ const App = () => {
       console.log("visionResp", visionResp);
 
       for (var i = 0; i < 6; i++) {
-        if (visionResp[i].text.search("tity No\n") != -1) {
-          setIdentityNo(visionResp[i].lines[1].text);
+        if (visionResp[0].lines[i].text.search("tity No\n") != -1) {
+          setIdentityNo(visionResp[0].lines[i + 1].text);
           break;
-        } else if (visionResp[i].text.search("tity No") != -1) {
-          setIdentityNo(visionResp[i + 1].text);
-          break;
-        } else {
+        } else if (visionResp[0].lines[i].text.search("tity No") != -1) {
+            setIdentityNo(visionResp[0].lines[i+1].text);
+            break;
+        } 
+        else {
           setIdentityNo("Kimlik no bulunamadı");
         }
       }
       for (var i = 4; i < 10; i++) {
-        if (visionResp[i].text.search("Name") != -1 && visionResp[i].text.search("\n") != -1) {
-          setName(visionResp[i].lines[1].text);
+        if (
+          visionResp[0].lines[i].text.search("Name\n") != -1) {
+          setName(visionResp[0].lines[i].text);
           break;
-        } else if (visionResp[i].text.search("Name") != -1) {
-          setName(visionResp[i + 1].text);
+        } else if (visionResp[0].lines[i].text.search("Name") != -1) {
+          setName(visionResp[0].lines[i + 1].text);
           break;
         } else {
           setName("İsim bulunamadı");
         }
       }
       for (var i = 2; i < 8; i++) {
-        console.log(visionResp[i].text.search("Surname"));
-        if (visionResp[i].text.search("Surname\n") != -1) {
-          setSurname(visionResp[i].lines[1].text);
+        if (visionResp[0].lines[i].text.search("Surname\n") != -1) {
+          setSurname(visionResp[0].lines[i + 1].text);
           break;
-        } else if (visionResp[i].text.search("Surname") != -1) {
-          setSurname(visionResp[i + 1].text);
+        } else if (visionResp[0].lines[i].text.search("Surname") != -1) {
+          setSurname(visionResp[0].lines[i + 1].text);
           break;
         } else {
           setSurname("Soyisim bulunamadı");
         }
       }
-      for (var i = 2; i < 8; i++) {
-        if (visionResp[i].text.search("Gender\n") != -1) {
-          setBirthDate(visionResp[i].lines[1].text);
+      for (var i = 5; i < 12; i++) {
+        if (visionResp[0].lines[i].text.search("Gender\n") != -1) {
+          setBirthDate(visionResp[0].lines[i + 1].text);
           break;
-        } else if (visionResp[i].text.search("Gender") != -1) {
-          setBirthDate(visionResp[i + 1].text);
+        } else if (visionResp[0].lines[i].text.search("Gender") != -1) {
+          setBirthDate(visionResp[0].lines[i + 1].text);
           break;
         } else {
           setBirthDate("Doğum tarihi bulunamadı");
@@ -90,9 +90,9 @@ const App = () => {
   const sendImage = () => {
     axios({
       method: "POST",
-      url: "https://detect.roboflow.com/kimlik1/3",
+      url: "https://detect.roboflow.com/kimlik2/1",
       params: {
-        api_key: "Y7xAA1DBMt86xFBj93Qr",
+        api_key: "Avj6MXgQgWV0xt6pPbno",
       },
       data: image,
       headers: {
@@ -102,7 +102,7 @@ const App = () => {
       console.log(response.data.predictions);
       if (
         response.data.predictions[0].confidence === undefined ||
-        response.data.predictions[0].confidence < 0.7
+        response.data.predictions[0].confidence < 0.1
       ) {
         setConfidence(0);
       } else {
@@ -110,6 +110,26 @@ const App = () => {
         detectText();
       }
     });
+  };
+
+  const postData = () => {
+    const data = {
+      name: name,
+      surname: surname,
+      birthDate: birthDate,
+      identifyNumber: identityNo,
+    };
+
+    // Axios ile POST isteği yapma
+    axios
+      .post('http://192.168.1.41:3000/users', data)
+      .then((response) => {
+        console.log("İstek başarılı!");
+        console.log("Sunucudan dönen veri:", response.data);
+      })
+      .catch((error) => {
+        console.error("İstek başarısız!", error);
+      });
   };
 
   return (
@@ -136,6 +156,9 @@ const App = () => {
         </TouchableOpacity>
         <TouchableOpacity style={styles.buttons} onPress={() => sendImage()}>
           <Text style={styles.textStyle}>Kimligi Tani</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.buttons}  onPress={() => postData()}>
+          <Text style={styles.textStyle}>Verileri Gönder</Text>
         </TouchableOpacity>
       </View>
     </View>
@@ -211,17 +234,17 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 25,
   },
-  info_container:{
+  info_container: {
     flex: 2,
     justifyContent: "center",
-    marginHorizontal: 20
+    marginHorizontal: 20,
   },
-  info_text:{
+  info_text: {
     fontSize: 18,
     margin: 15,
     padding: 5,
-    color: 'black',
-    backgroundColor: '#e3f2fd',
+    color: "black",
+    backgroundColor: "#e3f2fd",
     borderRadius: 10,
   },
 });
